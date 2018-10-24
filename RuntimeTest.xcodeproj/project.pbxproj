@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C43CDD9A217F3D1100A55035 /* RTMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C43CDD99217F3D1100A55035 /* RTMTest.m */; };
 		C4ED918D217DBEF7001BC329 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED918C217DBEF7001BC329 /* AppDelegate.m */; };
 		C4ED9190217DBEF7001BC329 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED918F217DBEF7001BC329 /* ViewController.m */; };
 		C4ED9193217DBEF7001BC329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ED9191217DBEF7001BC329 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C43CDD98217F3D1100A55035 /* RTMTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMTest.h; sourceTree = "<group>"; };
+		C43CDD99217F3D1100A55035 /* RTMTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMTest.m; sourceTree = "<group>"; };
 		C4ED9188217DBEF7001BC329 /* RuntimeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ED918B217DBEF7001BC329 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4ED918C217DBEF7001BC329 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				C4ED919C217DBEFB001BC329 /* Info.plist */,
 				C4ED919D217DBEFB001BC329 /* main.m */,
 				C4ED9194217DBEF7001BC329 /* RuntimeTest.xcdatamodeld */,
+				C43CDD98217F3D1100A55035 /* RTMTest.h */,
+				C43CDD99217F3D1100A55035 /* RTMTest.m */,
 			);
 			path = RuntimeTest;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4ED9196217DBEF7001BC329 /* RuntimeTest.xcdatamodeld in Sources */,
+				C43CDD9A217F3D1100A55035 /* RTMTest.m in Sources */,
 				C4ED9190217DBEF7001BC329 /* ViewController.m in Sources */,
 				C4ED919E217DBEFB001BC329 /* main.m in Sources */,
 				C4ED918D217DBEF7001BC329 /* AppDelegate.m in Sources */,
@@ -440,7 +446,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RuntimeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +464,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RuntimeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
