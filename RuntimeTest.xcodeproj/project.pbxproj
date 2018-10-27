@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4304C562181FCB500F441D1 /* UIView+category.m in Sources */ = {isa = PBXBuildFile; fileRef = C4304C552181FCB500F441D1 /* UIView+category.m */; };
 		C43CDD9A217F3D1100A55035 /* RTMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C43CDD99217F3D1100A55035 /* RTMTest.m */; };
+		C4421E8D21844EEC0012C43D /* RTMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C4421E8C21844EEC0012C43D /* RTMPerson.m */; };
 		C4ED918D217DBEF7001BC329 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED918C217DBEF7001BC329 /* AppDelegate.m */; };
 		C4ED9190217DBEF7001BC329 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED918F217DBEF7001BC329 /* ViewController.m */; };
 		C4ED9193217DBEF7001BC329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ED9191217DBEF7001BC329 /* Main.storyboard */; };
@@ -37,8 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4304C542181FCB500F441D1 /* UIView+category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+category.h"; sourceTree = "<group>"; };
+		C4304C552181FCB500F441D1 /* UIView+category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+category.m"; sourceTree = "<group>"; };
 		C43CDD98217F3D1100A55035 /* RTMTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMTest.h; sourceTree = "<group>"; };
 		C43CDD99217F3D1100A55035 /* RTMTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMTest.m; sourceTree = "<group>"; };
+		C4421E8B21844EEC0012C43D /* RTMPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMPerson.h; sourceTree = "<group>"; };
+		C4421E8C21844EEC0012C43D /* RTMPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMPerson.m; sourceTree = "<group>"; };
 		C4ED9188217DBEF7001BC329 /* RuntimeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ED918B217DBEF7001BC329 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4ED918C217DBEF7001BC329 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,14 +116,18 @@
 				C4ED918C217DBEF7001BC329 /* AppDelegate.m */,
 				C4ED918E217DBEF7001BC329 /* ViewController.h */,
 				C4ED918F217DBEF7001BC329 /* ViewController.m */,
+				C43CDD98217F3D1100A55035 /* RTMTest.h */,
+				C43CDD99217F3D1100A55035 /* RTMTest.m */,
+				C4304C542181FCB500F441D1 /* UIView+category.h */,
+				C4304C552181FCB500F441D1 /* UIView+category.m */,
+				C4421E8B21844EEC0012C43D /* RTMPerson.h */,
+				C4421E8C21844EEC0012C43D /* RTMPerson.m */,
 				C4ED9191217DBEF7001BC329 /* Main.storyboard */,
 				C4ED9197217DBEFB001BC329 /* Assets.xcassets */,
 				C4ED9199217DBEFB001BC329 /* LaunchScreen.storyboard */,
 				C4ED919C217DBEFB001BC329 /* Info.plist */,
 				C4ED919D217DBEFB001BC329 /* main.m */,
 				C4ED9194217DBEF7001BC329 /* RuntimeTest.xcdatamodeld */,
-				C43CDD98217F3D1100A55035 /* RTMTest.h */,
-				C43CDD99217F3D1100A55035 /* RTMTest.m */,
 			);
 			path = RuntimeTest;
 			sourceTree = "<group>";
@@ -274,7 +284,9 @@
 				C43CDD9A217F3D1100A55035 /* RTMTest.m in Sources */,
 				C4ED9190217DBEF7001BC329 /* ViewController.m in Sources */,
 				C4ED919E217DBEFB001BC329 /* main.m in Sources */,
+				C4304C562181FCB500F441D1 /* UIView+category.m in Sources */,
 				C4ED918D217DBEF7001BC329 /* AppDelegate.m in Sources */,
+				C4421E8D21844EEC0012C43D /* RTMPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
