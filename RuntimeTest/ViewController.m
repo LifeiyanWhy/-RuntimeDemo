@@ -40,9 +40,13 @@
     NSData *data = [NSKeyedArchiver archivedDataWithRootObject:person];
     RTMPerson *newPerson = [NSKeyedUnarchiver unarchiveObjectWithData:data];
     NSLog(@"====%@ %ld",newPerson.name,(long)newPerson.age);
+    
+    RTMPerson *person2 = [[RTMPerson alloc] initWithDict:@{@"name":@"zhangsan",@"number":@"888888",@"age":@10}];
+    NSLog(@"name=%@ number=%@ age=%ld",person2.name,person2.number,(long)person2.age);
 }
 
 -(void)printString:(NSString *)string{
     NSLog(@"%@",string);
 }
 @end
+

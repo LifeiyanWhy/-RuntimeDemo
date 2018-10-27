@@ -30,5 +30,28 @@
         [aCoder encodeObject:[self valueForKey:key] forKey:key];
     }
 }
-
+- (instancetype)initWithDict:(NSDictionary *)dict {
+    self = [super init];
+    if (self) {
+        //存放所有属性名
+        NSMutableArray * keys = [NSMutableArray array];
+        unsigned int count = 0;
+        //获取所有属性
+        objc_property_t * selfProperty = class_copyPropertyList([self class], &count);
+        for (int i = 0; i < count; i ++) {
+            //将获取到的属性转换为NSString类型
+            NSString * propertyName = [NSString stringWithUTF8String:property_getName(selfProperty[i])];
+            //添加到keys
+            [keys addObject:propertyName];
+        }
+        free(selfProperty);
+        for (NSString * key in keys) {
+            //如果字典中没有该属性的值则不进行赋值语句
+            if ([dict valueForKey:key] == nil) continue;
+            //如果有，赋值
+            [self setValue:[dict valueForKey:key] forKey:key];
+        }
+    }
+    return self;
+}
 @end
